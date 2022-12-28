@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #120D61;
+    background-color: #F9FAFE;
+}
+header{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+main{
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+    margin-top: 70px;
+}
+h1{
+    font-size: 250%;
+    margin: 0;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+}
