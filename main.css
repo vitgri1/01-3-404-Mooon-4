@@ -2,12 +2,24 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #120D61;
     background-color: #F9FAFE;
+    margin: 0;
 }
 header{
     display: inline-block;
     width: 100%;
     font-size: 14px;
     text-transform: capitalize;
+    margin-top: 10px;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 8%;
+    color: #120D61;
 }
 main{
     display: inline-block;
