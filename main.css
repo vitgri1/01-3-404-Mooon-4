@@ -1,38 +1,90 @@
+body,
+body * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #120D61;
     background-color: #F9FAFE;
-    margin: 0;
 }
-header{
+
+.container{
     display: inline-block;
     width: 100%;
-    font-size: 14px;
-    text-transform: capitalize;
     margin-top: 10px;
+    text-align: center;
 }
 
-nav{
+.logo{
+    float: left;
+    width: 80px;
+    margin-left: calc(20% - 80px);
+}
+
+.logo > img{
+    width: 100%;
+    float: left;
+}
+
+.menu {
     margin-top: 15px;
+    text-transform: capitalize;
+    font-size: 14px;
 }
 
-a{
+.main-menu{
+    float: left;
+    margin-left: 5%;
+    width: 35%;
+}
+
+.login-menu{
+    float: right;
+    margin-right: 10%;
+    width: 25%;
+    text-align: right;
+}
+
+.menu-item{
     text-decoration: none;
     margin-left: 8%;
     color: #120D61;
 }
-main{
+
+.button{
     display: inline-block;
-    width: 100%;
-    text-align:center;
-    margin-top: 70px;
+    text-decoration: none;
+    background-color: #3EF0FA;
+    padding: 5px 30px;
+    border-radius: 7px;
+    line-height: 1em;
 }
-h1{
+
+.title{
     font-size: 250%;
-    margin: 0;
+    margin-top: 2em;
+    line-height: 1em;
 }
-p{
+
+.description{
     font-size: 20px;
-    margin: 0;
+    line-height: 1em;
+    margin-top: 0.5em;
     margin-bottom: 50px;
+}
+
+.orange{
+    background-color: #FFD8D1;
+    color: #DB7B6D;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.center-image{
+display: block;
+    width: 60%;
+    margin-left: 20%;
 }
